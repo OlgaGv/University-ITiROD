@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab2/src/main/java/by/pantosha/itirod/lab2/Lab2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab2/src/main/java/by/pantosha/itirod/lab2/matrix/ArrayListMatrix.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab2/src/main/java/by/pantosha/itirod/lab2/matrix/IMatrix.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab2/src/main/java/by/pantosha/itirod/lab2/matrix/LinkedListMatrix.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab2/src/main/java/by/pantosha/itirod/lab2/matrix/ListMatrix.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab4/src/main/java/by/pantosha/itirod/lab4/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab4/src/main/java/by/pantosha/itirod/lab4/IBuilder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab4/src/main/java/by/pantosha/itirod/lab4/Lab4.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab4/src/main/java/by/pantosha/itirod/lab4/enities" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab4/src/main/java/by/pantosha/itirod/lab4/exceptions" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab4/src/main/java/by/pantosha/itirod/lab4/repository" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lab5" charset="UTF-8" />
+  </component>
+</project>
+
