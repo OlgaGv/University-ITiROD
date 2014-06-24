@@ -1,4 +1,4 @@
-package by.pantosha.itirod.matrix.lab2;
+package by.pantosha.itirod.lab2.matrix;
 
 import by.pantosha.itirod.lab2.matrix.ArrayListMatrix;
 import by.pantosha.itirod.lab2.matrix.IMatrix;
