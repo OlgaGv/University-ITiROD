@@ -1,0 +1,11 @@
+body {
+    background: #FCFCFC repeat;
+    color: #555555;
+    font-family: "Helvetica Neue", "Helvetica", Arial;
+    text-rendering: optimizeLegibility;
+    min-width: 320px;
+}
+
+#tasks .item {
+    min-height: 200px;
+}

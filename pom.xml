@@ -11,6 +11,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <local.glassfish.home>/home/pantosha/glassfish4/glassfish</local.glassfish.home>
+        <local.glassfish.user>admin</local.glassfish.user>
+        <local.glassfish.domain>domain1</local.glassfish.domain>
+        <local.glassfish.passfile>${local.glassfish.home}/domains/${local.glassfish.domain}/config/domain-passwords</local.glassfish.passfile>
     </properties>
 
     <modules>
@@ -18,6 +22,9 @@
         <module>Lab3</module>
         <module>Lab4</module>
         <module>Lab5</module>
+        <module>Lab8</module>
+        <module>Lab9</module>
+        <module>Lab10</module>
     </modules>
 
     <dependencies>
@@ -47,6 +54,13 @@
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.1</version>
+                <configuration>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>

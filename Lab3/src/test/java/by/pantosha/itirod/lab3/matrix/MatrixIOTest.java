@@ -3,18 +3,26 @@ package by.pantosha.itirod.lab3.matrix;
 import by.pantosha.itirod.lab2.matrix.ArrayListMatrix;
 import by.pantosha.itirod.lab2.matrix.IMatrix;
 import org.testng.AssertJUnit;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Random;
 import java.util.zip.DataFormatException;
 
 public class MatrixIOTest {
 
-    private final Path path = Paths.get("/tmp/matrix.txt");
+    private Path path;
+
+    @BeforeClass
+    public void initialize() throws IOException {
+        File file = File.createTempFile("matrix", ".tmp");
+        file.deleteOnExit();
+        path = file.toPath();
+    }
 
     @DataProvider
     public Object[][] randomMatrix() {

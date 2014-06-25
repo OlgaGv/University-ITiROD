@@ -4,9 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>itirod</groupId>
     <artifactId>lab3</artifactId>
-    <version>1.0</version>
     <packaging>jar</packaging>
     <name>Лабораторная работа 3</name>
 
@@ -18,7 +16,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>itirod</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>lab2</artifactId>
             <version>1.0</version>
         </dependency>

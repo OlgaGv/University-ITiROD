@@ -1,0 +1,17 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>date</short-name>
+    <tag>
+        <name>dateprinttag</name>
+        <body-content>empty</body-content>
+        <tag-class>by.pantosha.itirod.lab9.web.tags.DatePrintTag</tag-class>
+
+        <attribute>
+            <name>date</name>
+            <required>yes</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description>Value for display</description>
+        </attribute>
+    </tag>
+</taglib>
